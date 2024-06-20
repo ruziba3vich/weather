@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	genprotos "github.com/ruziba3vich/local_weather/genprotos/protos"
-	"github.com/ruziba3vich/local_weather/internal/storage"
+	genprotos "github.com/ruziba3vich/local_weather_server/genprotos/protos"
+	"github.com/ruziba3vich/local_weather_server/internal/storage"
 )
 
 type (

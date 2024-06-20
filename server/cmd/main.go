@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/ruziba3vich/local_weather/api"
-	"github.com/ruziba3vich/local_weather/internal/service"
-	"github.com/ruziba3vich/local_weather/internal/storage"
+	"github.com/ruziba3vich/local_weather_server/api"
+	"github.com/ruziba3vich/local_weather_server/internal/service"
+	"github.com/ruziba3vich/local_weather_server/internal/storage"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	genprotos "github.com/ruziba3vich/local_weather/genprotos/protos"
+	genprotos "github.com/ruziba3vich/local_weather_server/genprotos/protos"
 	"google.golang.org/grpc"
 )
 

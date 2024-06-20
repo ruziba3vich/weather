@@ -1,4 +1,4 @@
-module github.com/ruziba3vich/local_weather
+module github.com/ruziba3vich/local_weather_server
 
 go 1.22.4
 
