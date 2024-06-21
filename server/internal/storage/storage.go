@@ -18,8 +18,8 @@ func New() *Storage {
 	}
 }
 
-func (s *Storage) GetWeatherByCountryName(req *genprotos.GetWeatherByCountryNameReq, ch chan float32) {
-	ch <- s.db.GetRandomTemperature()
+func (s *Storage) GetWeatherByCountryName(req *genprotos.GetWeatherByCountryNameReq) float32 {
+	return s.db.GetRandomTemperature()
 }
 
 func (s *Storage) FindCountry(req *genprotos.GetWeatherByCountryNameReq) error {

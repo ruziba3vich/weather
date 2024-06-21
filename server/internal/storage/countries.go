@@ -1,6 +1,7 @@
 package storage
 
 import (
+	"log"
 	"math/rand"
 	"time"
 )
@@ -60,8 +61,10 @@ func (d *DB) GetRandomTemperature() float32 {
 	cmpTemp := 8.475288
 	randomDummyTemp := generateRandomInt(len(dummy))
 	if dummy[randomDummyTemp] > float32(cmpTemp) {
+		log.Println("rand value")
 		return d.temperatures[generateRandomInt(len(d.countries))] - dummy[randomDummyTemp]
 	}
+	log.Println("rand value 2")
 	return d.temperatures[generateRandomInt(len(d.countries))] + dummy[randomDummyTemp]
 }
 
